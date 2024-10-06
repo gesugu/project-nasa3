@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "Outfit-ExtraLight";
+  src: url("src/assets/fonts/Outfit-ExtraLight.woff"), url("src/assets/fonts/Outfit-ExtraLight.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit-Light";
+  src: url("src/assets/fonts/Outfit-Light.woff"), url("src/assets/fonts/Outfit-Light.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit-Regular";
+  src: url("src/assets/fonts/Outfit-Regular.woff"), url("src/assets/fonts/Outfit-Regular.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit-Medium";
+  src: url("src/assets/fonts/Outfit-Medium.woff"), url("src/assets/fonts/Outfit-Medium.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit-SemiBold";
+  src: url("src/assets/fonts/Outfit-SemiBold.woff"), url("src/assets/fonts/Outfit-SemiBold.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit-Bold";
+  src: url("src/assets/fonts/Outfit-Bold.woff"), url("src/assets/fonts/Outfit-Bold.woff2");
+  font-display: swap;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body,
+html {
+  height: 100%;
+  min-height: 100%;
+}
+body {
+	line-height: normal
+}
+ol, ul {
+	list-style: none;
+}
+a {
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+  letter-spacing: -0.02em;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+canvas{
+	width: 100% !important;
+	height: 100% !important;
+}
+#app{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.wrapper{
+	max-width: 1122px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.title{
+	font-size: 87px;
+	line-height: normal;
+  font-family: "Outfit-SemiBold";
+	font-weight: 600;
+	margin: 0 0 48px 0;
+}
+.subtitle{
+	font-size: 80px;
+	line-height: normal;
+	font-family: "Outfit-Medium";
+	font-weight: 500;
+}
+.content{
+	padding: 306px 0 0 0;
+	color: white
+}
+.description{
+	font-size: 47px;
+	line-height: normal;
+	font-family: "Outfit-ExtraLight";
+}
+.btn{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 553px;
+	height: 114px;
+	background: linear-gradient(90deg, #fef40f 0%, #87690f 100%);
+	font-family: "Outfit-SemiBold";
+	border: none;
+	border-radius: 100px;
+	color: black;
+	font-style: normal;
+	font-size: 39px;
+	cursor: pointer;
+	transition: 0.3s;
+	transform: translateY(0px);
+}
+.btn:hover{
+	opacity: 0.9;
+	transform: translateY(6px);
+}
+.font-s-25{
+	font-size: 25px;
+	line-height: normal;
+}
+.font-o-e-light{
+	font-family: "Outfit-ExtraLight";
+	font-weight: 200;
+}
+.font-o-light{
+	font-family: "Outfit-Light";
+	font-weight: 300;
+}
+.font-o-reg{
+	font-family: "Outfit-Regular";
+	font-weight: 400;
+}
+.font-o-med{
+	font-family: "Outfit-Medium";
+	font-weight: 500;
+}
+.font-o-s-bold{
+	font-family: "Outfit-SemiBold";
+	font-weight: 600;
+}
+.font-o-bold{
+	font-family: "Outfit-Bold";
+	font-weight: 700;
+}
+
+
+
